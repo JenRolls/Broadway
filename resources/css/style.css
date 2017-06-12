@@ -1,5 +1,11 @@
 .hero h1 {
   font-size: 70px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+}
+.hero {
+  background-image: href="./resources/images/the-flatiron-building.png">
 }
 h1, h2, h3 {
   font-weight: bold;
