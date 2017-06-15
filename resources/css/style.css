@@ -8,12 +8,13 @@ h1, h2, h3 {
   font-weight: bold;
 }
 h1 {
-  display: block;
+  display: inline-block;
   font-size: 2em;
   -webkit-margin-before: 0.67em;
   webkit-margin-after: 0.67em;
   webkit-margin-start: 0px;
   webkit-margin-end: 0px;
+  background-color: black;
 }
 .btn-nav {
   font-size: 18px;
@@ -38,17 +39,24 @@ a: webkit-any-link {
     background-color: white;
     color: white;
   }
-    body[Attributes Style] {
-      background-image: url(./resources/images/the-flatiron-building.png);
+    body {
+      background-image: image(./resources/images/Broadway4Edit.jpg);
+      background-repeat: no-repeat;
+      background-size: 1370px 300px;
     }
   body {
     display: block;
-    margin: 8px
-    margin-top: 8px
+    margin: 8px;
+    margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 8px;
   }
-
+.hero h2 {
+  font-size: 23px;
+  font-weight: bold;
+  background-image: image(./resources/images/Broadway4Edit.jpg);
+  background-size: 1380px 27px;
+}
 h2 {
   display: block;
   font-size: 1.5cm;
@@ -57,4 +65,10 @@ h2 {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
+  color: black;
+  background-color: white;
+}
+.supporting {
+  text-align: center;
+  color: black;
 }
