@@ -9,7 +9,7 @@ h1, h2, h3 {
 }
 h1 {
   display: inline-block;
-  font-size: 2em;
+  font-size: 2.5em;
   -webkit-margin-before: 0.67em;
   webkit-margin-after: 0.67em;
   webkit-margin-start: 0px;
@@ -17,8 +17,12 @@ h1 {
   background-color: black;
 }
 .btn-nav {
-  font-size: 18px;
+  font-size: 22px;
   color:white;
+  background-color: black;
+}
+h2 {
+  image: image(./resources/images/Broadway4Edit2.jpg);
 }
 a: webkit-any-link {
   cursor: auto;
@@ -42,7 +46,7 @@ a: webkit-any-link {
     body {
       background-image: image(./resources/images/Broadway4Edit.jpg);
       background-repeat: no-repeat;
-      background-size: 1370px 300px;
+      background-size: 1370px 350px;
     }
   body {
     display: block;
@@ -59,7 +63,7 @@ a: webkit-any-link {
 }
 h2 {
   display: block;
-  font-size: 1.5cm;
+  font-size: 32px;
   -webkit-margin-before: 0.83em;
   -webkit-margin-after: 0.83em;
   -webkit-margin-start: 0px;
